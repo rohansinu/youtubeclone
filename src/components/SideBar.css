@@ -1,0 +1,16 @@
+.sidebar a {
+  padding: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar a:hover {
+  background-color: #e2e6ea;
+  border-radius: 8px;
+}
+
+.sidebar .nav-link.active {
+  background-color: #f8d7da;
+  color: red;
+}
